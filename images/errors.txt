@@ -1,0 +1,5 @@
+[Tue Nov 11 2014 19:46:24 GMT-0500 (EST)] Layer "Jott.ly has never been so easy!": Expected end of input but "h" found.
+[Tue Nov 11 2014 19:46:24 GMT-0500 (EST)] Layer "Jott.ly Landing Page": Expected end of input but "L" found.
+[Tue Nov 11 2014 19:46:24 GMT-0500 (EST)] Layer "When-ever or where-ever that idea hits you - Jott.ly is there t": Expected end of input but "i" found.
+[Tue Nov 11 2014 19:46:24 GMT-0500 (EST)] Layer "“I really love Jott.ly, it’s a great writers tool.” ": Unsupported extension: ly
+[Tue Nov 11 2014 19:46:24 GMT-0500 (EST)] Layer "“ Jott.ly, has improved the way I cololaborate on our team.”": Unsupported extension: ly

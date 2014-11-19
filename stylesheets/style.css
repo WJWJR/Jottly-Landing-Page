@@ -1,0 +1,328 @@
+/* FONT RULES */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+h1, h2, h5, h6 {
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 72px;
+}
+h2 {
+    font-size: 65px;
+}
+h3{
+    font-size: 48px;
+    font-weight: lighter;
+    color: #333;
+}
+h4 {
+    font-size: 45px;
+}
+h5 {
+    font-size: 36px;
+}
+h6 {
+    font-size: 30px;
+}
+p {
+    font-size: 16px;
+}
+/* END FONT RULES */
+
+/* A: LINK RULES */
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffc52c;
+}
+a:active {}
+/* END A: LINK RULES */
+/* Main Section */
+
+#header {
+    background-image: url("../images/main_share_v2.jpg");
+    background-position: center;  
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+/* LOGO */
+.logo {
+    background: url("images/Jottly_logo.png") no-repeat top left;
+    margin-top: 50px;
+}
+/* Navigation */
+nav {
+    position: relative;
+    left: 538px;
+    margin-top: -55px;
+  
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.sign-up-border {
+    border: 1px solid #ffc52c;
+    padding: 10px;
+    border-radius: 5px;
+  
+}
+/* End Navigation Section */
+
+/* hr Separator Line*/
+  .hr {
+    background-color: #ffc52c;
+  }
+/* END hr Separator Line*/
+
+/* Main Text and Button*/
+#marketing {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+.main-sub-lead{
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.CTA-top {
+    position: relative;
+    left: 40%;
+    top: 200px;
+    font-size: 1.438em;
+}
+
+.button_cta {
+    background-color: #ffc52c;
+    width: 195px;
+    height: 55px;
+    font-size: 1.438em;
+    border-radius: 25px;
+    color: #fff;
+    border: 1px solid #ffc52c;
+    border-top: 1px solid #ffc52c;
+    border-left: 1px solid #ffc52c;
+    text-shadow: none;
+    box-shadow: 2px 3px 5px #333333;
+}
+/* END Main Text and Button*/
+
+/* Video Section */
+#video {
+    background-image: url("../images/bar-feet-legs-v2.jpg");
+    background-position: center;  
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.video-text {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.play-button {
+    background: url("../images/Play_Button.png") no-repeat;
+} 
+
+/* End Video Section */
+
+
+/* Write Section */
+  #write {
+    height: 508px;
+    background-color: #fff;
+  }
+  .macbook-lefthalf {
+    /*background-image: url("../images/jottlymacbook_lefthalf.png");*/
+    background-position: 865px;  
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-left: 93px;
+    margin-top: 0px;
+    right: 0px;
+  }
+/* End Write Section */
+
+/* Collaborate Section */
+  #collab {
+    height: 550px;
+    background-color: #CEECEA;
+  }
+  .macbook-righthalf {
+    /*background-image: url("../images/jottlymacbook_righthalf.png");*/
+    background-position: center;  
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+      /* margin-top: -641px;*/
+    width: 190%;
+    margin-left: -190px;
+    
+  }
+/* End Collaborate Section */
+
+
+/* Connect Section */
+  #connect {
+    height: 472px;
+    background-color: #eaeaea;
+  }
+  .iphone-mobile {
+    position: absolute;
+    right: 0px;
+        /*margin-left: 1175px;*/
+    margin-top: -140px;
+  }
+  .container .column, .container .columns {
+    margin-left: -50px;
+  }
+/* End Connect Section */
+
+/* Combined Rules for WRITE/COLLAB/CONNECT */
+  .section-lead {
+    margin-top: 135px;
+  }
+  .text-sub-lead {
+    margin-top: 35px;
+    line-height: 30px;
+  }
+/* End Combined Rules for W/C/C */
+
+/* What People Saying Section */
+  #saying {
+    height: 747px;
+    background-color: #ffc52c;
+  }
+  .sub-lead {
+    text-align: center;
+  }
+  .commentor-pic {
+    margin-top: 50px;
+  }
+  .commentor-statement {
+    font-size: 24px;
+    line-height: 34px;
+    top: -115px;
+    width: 55%;
+  }
+  .commentor-name {
+    font-weight: bold;
+    top: -15px;
+  }
+  .commentor-company-title {
+    font-weight: lighter;
+    top: -12px;
+  }
+  .indicator {
+    position: relative;
+    top: 100px;
+    left: -55px;
+  }
+.commentor-name, .commentor-company-title {
+    font-size:16px; 
+}
+.commentor-statement, .commentor-name, .commentor-company-title {
+    color:#fff;
+    position: relative;
+    left: 160px;
+}
+  
+/* End What People Saying Section */
+
+
+/* Sign-Up Section */
+  #sign-up {
+    background-image: url("../images/Time_waits_v2.jpg");
+    background-position: center;  
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+.sign-lead {
+    font-weight: 900;
+}
+.sign-sub-lead {
+    color: #fff;
+    margin-top: 50px;
+    font-size: 45px;
+}
+.sign-sub-sub-lead {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 21px;
+}
+.button_cta_bottom {
+    background-color: #fb0c06;
+    width: 195px;
+    height: 55px;
+    font-size: 24px;
+    border-radius: 12px;
+    color: #fff;
+    border: 1px solid #fb0c06;
+    border-top: 1px solid #fb0c06;
+    border-left: 1px solid #fb0c06;
+    text-shadow: none;
+    margin-top: 25px;
+    box-shadow: 2px 3px 5px #333333;
+}
+/* End Sign-UP Section */
+
+
+/* Footer Section */
+#footer {
+  background-color:#374042;
+  height: 406px;
+}
+
+  .hr-bottom{
+    margin-top: 150px;
+  }
+  .nav-bottom{
+    position: relative;
+    left: 27%;
+    top: 59px;
+  }
+  ul .footer-nav {
+   margin-top: 100px;
+   text-align: center;
+}
+
+  .footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 14px;
+}
+/* End Footer Section */
+
+/* DRY RULES for What People Saying and Sign-Up */
+.sub-lead, .sign-lead {
+    color: #fff;
+    margin-top: 150px;
+/* END Dry Rules */
