@@ -179,55 +179,34 @@ div#main-text.sixteen.columns {
 /* #WriteSection
 ================================================== */
 #writeSection {
-    height: 495px;
+    height: 510px;
     background-color: #fff;
     position: relative;
   }
 
-
-/*.six.columns.offset-by-three.write {
-  position: relative;
-  background-color: #eaeaea;
-  margin: 0px 0px 0px 605px;
-  padding: 0px 0px 20px 180px;s
-}
-.six.columns.offset-by-three.write::after{
-  content: '';
-  display: block; height: 544px; width:495px;
-  background: url("../images/jottlymacbook_lefthalf.png") no-repeat 0px 0px;
-  position: absolute; right: 0px; bottom: -242px;
-}*/
-  /*.six.columns.offset-by-three.write/*.macbook-lefthalf {
-    /*background-image: url("../images/jottlymacbook_lefthalf.png");
-    background-position:left;  
-    background-attachment: scroll;
+#writeSection.sixteen.columns {
+    background-image: url("../images/jottlymacbook_lefthalf.png");
+    background-size: 555px 508px;
     background-repeat: no-repeat;
-    height: 495px;
-    margin-left: 66%;
-    margin-top: -284px;
-    right: 0px;
-  }*/
+    background-position: 100% 0%;  
+    background-attachment: scroll;
+}
+
 
 /* Collaborate Section 
 ================================================== */
   #collabSection {
-    height: 100%;
+    height: 610px;
     background-color: #CEECEA;
   }
-  .macbook-righthalf {
-    /*background-image: url("../images/jottlymacbook_righthalf.png");*/
-    background-position: center;  
-    background-attachment: scroll;
+  
+  #collabSection.sixteen.columns {
+    background-image: url("../images/jottlymacbook_righthalf.png");
+    background-size: 720px 597px;
     background-repeat: no-repeat;
-    background-size: cover; 
-    height: 100%;
-    margin-left: 0px;
-    margin-top: 0px;
-      /* margin-top: -641px;*/
-    width: 190%;
-    margin-left: -190px;
-    
-  }
+    background-position: 0% 100%;  
+    background-attachment: scroll;
+}
 
 /* Connect Section
 ================================================== */
@@ -244,16 +223,26 @@ div#main-text.sixteen.columns {
   .container .column, .container .columns {
     margin-left: 0px;
   }
-/* End Connect Section */
 
 /* Combined Rules for WRITE/COLLAB/CONNECT
 ================================================== */
   .section-lead {
     margin-top: 135px;
+    text-transform: uppercase;
   }
-  .text-sub-lead {
+  p.text-sub-lead {
     margin-top: 35px;
     line-height: 30px;
+    text-transform: none;
+    font-weight: 400;
+  }
+/* Section/Text Rules for COLLAB
+================================================== */
+  .section-lead.collab{
+    margin-left: 30%;
+  }
+  p.text-sub-lead.collab{
+    margin-left: 30%;
   }
 
 /* What People Saying Section
@@ -379,15 +368,55 @@ div#main-text.sixteen.columns {
 }
 /* #Media Queries
 ================================================== */
+/* Smaller than standard 1200 (devices and browsers) */
+  @media only screen and (max-width: 1149px) {
+.iphone-mobile {
+    position: relative;
+    right: 0px;
+        /*margin-left: 1175px;*/
+    margin-top: 0px;
+    z-index: 0;
+  }
+#sayingSection {}
+  }
 
-	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {}
+	/* Smaller than standard 975 (devices and browsers) */
+	@media only screen and (max-width: 975px) {
+    .seven.columns.clearfix.writeSection {
+      width: 375px;
+      padding: 10px; 
+    }
+    .eight.columns.offset-by-five 
+  }
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {}
 
 	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
+	@media only screen and (max-width: 767px) {
+    .start_button_cta {
+      margin-left: 125px;
+    }
+    nav.eight.columns.offset-by-five.nav{
+      display: none;
+    }
+    .sixteen.columns.hr {
+      display: none;
+    }
+    .six.columns.offset-by-three.write.hide-mobile,
+    .seven.columns.clearfix.collab.hide-mobile,
+    img.iphone-mobile.hide-mobile {
+      display: none;
+    }
+    .eight.columns.slider {
+      margin-left: 90px;
+      margin-top: 12px;
+      margin-bottom: 0px;
+    }
+    .indicator {
+      display: none;
+    }
+}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {}
@@ -395,7 +424,35 @@ div#main-text.sixteen.columns {
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
     h1 {
-      font-size: 300px;
+      font-size: 125px;
+    }
+
+    .six.columns.offset-by-three.write.hide-mobile,
+    .seven.columns.clearfix.collab.hide-mobile,
+    .hide-mobile {
+      display: none;
+
+    }
+    h1.main-lead {
+      font-size: 51px;
+    }
+    h6.main-sub-lead {
+      font-size: 23px;
+    }
+    .start_button_cta {
+      margin-left: 60px;
+    }
+    h3.sub-lead {
+      font-size: 27px;
+    }
+    .commentor-statement {
+      font-size: 13px;
+    }
+    .commentor-name, .commentor-company-title {
+      font-size: 14px;
+    }
+    .footer {
+      font-size: 10px;
     }
   }
 
